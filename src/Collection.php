@@ -103,6 +103,8 @@ class Collection implements Countable
      *
      * @return integer
      */
+	 
+	#[\ReturnTypeWillChange]
     public function count()
     {
         return count($this->items);
