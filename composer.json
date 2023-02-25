@@ -1,5 +1,5 @@
 {
-    "name": "jobapis/jobs-common",
+    "name": "phil4428/jobs-common",
     "type": "library",
     "description": "Making it simple to integrate your application with job api providers.",
     "keywords": [
@@ -23,15 +23,14 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "guzzlehttp/guzzle": "^6.0|^7.0"
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "~7.5"
     },
     "require-dev": {
-        "phpunit/phpunit": ">=4.6",
-        "phpunit/php-code-coverage": "~2.0",
-        "mockery/mockery": ">=0.9.4",
-        "dunglas/php-schema": "0.4.*",
-        "squizlabs/php_codesniffer": "~2.0"
+        "phpunit/phpunit":"~10.0-dev",
+        "phpunit/php-code-coverage": "~10.0",
+        "mockery/mockery": "~1.5",
+        "squizlabs/php_codesniffer": "~4.0-dev"
     },
     "autoload": {
         "psr-4": {
