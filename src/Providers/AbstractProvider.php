@@ -279,7 +279,9 @@ abstract class AbstractProvider
                 return $value[$current_index];
             }
         } else {
-            throw new \OutOfRangeException("Attempt to access missing variable: $current_index");
+            //Permet de renvoyer un résultat unique
+            return $value;
+           // throw new \OutOfRangeException("Attempt to access missing variable: $current_index");
         }
     }
 
